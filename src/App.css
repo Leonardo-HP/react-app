@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+
+
+form .boton {
+  transition: 0.5s;
+  background-color: #a17fe0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.boton:hover {
+  transition: 0.5s;
+  background-color: #59C173;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:active {
+  background-color: #3e8e41;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 0 6px 0 #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+}
+
+form .hijo {
+  position: relative;
+  margin: 20px;
+}
+
+input {
+  background: none;
+  padding: 5px 5px 5px 2px;
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+img{
+width: 180px;
+}
+
+input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    width: 80%;
+  }
+}
+select{
+	 background: none;
+  padding: 5px 5px 5px 2px;
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid;
+	 outline: none;
+}
